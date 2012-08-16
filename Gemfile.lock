@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bvh (1.0.1)
+    rubysdl (2.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bvh
+  rubysdl
