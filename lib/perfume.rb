@@ -26,11 +26,11 @@ class Perfume
         Dancer.new(File.expand_path(f, File.dirname(__FILE__)))
       end
       loop {
+        screen.fill_rect(0, 0, WIDTH, HEIGHT, Color::WHITE)
         dancers.map(&:move)
         sleep 0.025
         return if dancers.first.finished?
         screen.update_rect(0, 0, WIDTH, HEIGHT)
-        screen.fill_rect(0, 0, WIDTH, HEIGHT, Color::BLACK)
       }
     end
   end
