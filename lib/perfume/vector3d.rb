@@ -19,9 +19,9 @@ class Perfume
       ax, ay, az = angle.map{|i| Math::PI / 180 * i}
       px, py, pz = x, y, z
 
-      pz, px = pz * cos(ay) - px * sin(ay), pz * sin(ay) + px * cos(ay)
       py, pz = py * cos(ax) - pz * sin(ax), py * sin(ax) + pz * cos(ax)
       px, py = px * cos(az) - py * sin(az), px * sin(az) + py * cos(az)
+      pz, px = pz * cos(ay) - px * sin(ay), pz * sin(ay) + px * cos(ay)
       Vector3D[px, py, pz]
     end
   end
