@@ -3,9 +3,6 @@ perfume global site project ruby sample code
 
 [Perfume GLOBAL SITE](http://www.perfume-global.com/)
 
-* [Video1](http://www.youtube.com/watch?v=_ZctOHlFML0)
-* [Video1](http://www.youtube.com/watch?v=rjoFPGmJyn0)
+* [Video](http://www.youtube.com/watch?v=f9j4Qh5A3ys)
 
-KNWON BUGS:
-
-* 関節が変な感じで曲がる…。
+![perfume-dev](http://cdn-ak.f.st-hatena.com/images/fotolife/a/authorNari/20120822/20120822210233_original.png)
