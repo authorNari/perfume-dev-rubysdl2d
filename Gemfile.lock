@@ -2,6 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     bvh (1.0.1)
+    narray (0.6.0.1)
     rubysdl (2.1.2)
 
 PLATFORMS
@@ -9,4 +10,5 @@ PLATFORMS
 
 DEPENDENCIES
   bvh
+  narray
   rubysdl
